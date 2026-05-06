@@ -7,7 +7,7 @@ async function loadProjects() {
   projects.forEach(project => {
     const card = document.createElement("a");
     card.className = "card";
-    card.href = `project.html?slug=${project.slug}`;
+    card.href = `projects.html?slug=${project.slug}`;
 
     card.innerHTML = `
       <div class="card-image">
