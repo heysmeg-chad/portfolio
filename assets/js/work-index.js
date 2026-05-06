@@ -11,7 +11,7 @@ async function loadProjects() {
 
     card.innerHTML = `
       <div class="card-image">
-        <img src="${project.thumbnail || project.hero}" alt="${project.title}">
+        <img src="${project.media.thumbnail || project.media.hero}" alt="${project.title}">
       </div>
 
       <div class="card-content">
