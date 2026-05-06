@@ -1,7 +1,7 @@
 [
   {
-    "slug": "f1-drive",
-    "title": "F1 Drive Experience",
+    "slug": "project-one",
+    "title": "Project One",
     "summary": "Designing an immersive digital racing experience.",
     "meta": {
       "client": "Formula 1",
@@ -9,8 +9,8 @@
       "year": "2025"
     },
     "media": {
-      "hero": "https://picsum.photos/seed/f1drive/1200/800",
-      "thumbnail": "https://picsum.photos/seed/f1drive/600/400"
+      "hero": "https://picsum.photos/seed/project-one/1200/800",
+      "thumbnail": "https://picsum.photos/seed/project-one/600/400"
     },
     "sections": [
       {
@@ -25,7 +25,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/projects/f1-drive/screen-1.jpg"
+        "src": "assets/images/projects/project-one/screen-1.jpg"
       },
       {
         "type": "quote",
@@ -41,7 +41,7 @@
 
   {
     "slug": "project-two",
-    "title": "Onboarding Optimisation",
+    "title": "Project Two",
     "summary": "Improving onboarding and reducing drop-off rates.",
     "meta": {
       "client": "Client Name",
@@ -49,8 +49,8 @@
       "year": "2024"
     },
     "media": {
-      "hero": "https://picsum.photos/seed/projecttwo/1200/800",
-      "thumbnail": "https://picsum.photos/seed/projecttwo/600/400"
+      "hero": "https://picsum.photos/seed/project-two/1200/800",
+      "thumbnail": "https://picsum.photos/seed/project-two/600/400"
     },
     "sections": [
       {
