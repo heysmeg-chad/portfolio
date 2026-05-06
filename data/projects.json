@@ -3,22 +3,25 @@
     "slug": "f1-drive",
     "title": "F1 Drive Experience",
     "summary": "Designing an immersive digital racing experience.",
-    "client": "Formula 1",
-    "role": "Product Designer",
-    "year": "2025",
-    "hero": "assets/images/projects/f1-drive/hero.jpg",
-    "thumbnail": "assets/images/projects/f1-drive/thumb.jpg",
-
+    "meta": {
+      "client": "Formula 1",
+      "role": "Product Designer",
+      "year": "2025"
+    },
+    "media": {
+      "hero": "https://picsum.photos/seed/f1drive/1200/800",
+      "thumbnail": "https://picsum.photos/seed/f1drive/600/400"
+    },
     "sections": [
       {
         "type": "text",
         "heading": "Problem",
-        "body": "Designing a seamless digital layer for a physical racing experience."
+        "body": "Designing a seamless digital layer for a physical racing experience that enhances engagement without distracting from the event itself."
       },
       {
         "type": "text",
         "heading": "Approach",
-        "body": "Focused on clarity, real-time feedback, and engagement."
+        "body": "Focused on clarity, real-time feedback, and reducing cognitive load while maintaining excitement."
       },
       {
         "type": "image",
@@ -31,7 +34,47 @@
       {
         "type": "text",
         "heading": "Outcome",
-        "body": "Improved engagement and strengthened competitive interaction."
+        "body": "Improved engagement, clearer race interaction, and a more immersive fan experience."
+      }
+    ]
+  },
+
+  {
+    "slug": "project-two",
+    "title": "Onboarding Optimisation",
+    "summary": "Improving onboarding and reducing drop-off rates.",
+    "meta": {
+      "client": "Client Name",
+      "role": "UX Designer",
+      "year": "2024"
+    },
+    "media": {
+      "hero": "https://picsum.photos/seed/projecttwo/1200/800",
+      "thumbnail": "https://picsum.photos/seed/projecttwo/600/400"
+    },
+    "sections": [
+      {
+        "type": "text",
+        "heading": "Problem",
+        "body": "Users were dropping off early in the onboarding flow due to unclear steps and unnecessary friction."
+      },
+      {
+        "type": "text",
+        "heading": "Approach",
+        "body": "Mapped user journeys and simplified the onboarding flow into fewer, clearer steps."
+      },
+      {
+        "type": "image",
+        "src": "assets/images/projects/project-two/screen-1.jpg"
+      },
+      {
+        "type": "quote",
+        "text": "Simplifying complexity improved completion rates significantly."
+      },
+      {
+        "type": "text",
+        "heading": "Outcome",
+        "body": "Increased onboarding completion and improved first-time user retention."
       }
     ]
   }
