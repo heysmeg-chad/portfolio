@@ -6,13 +6,10 @@ async function loadIncludes() {
 
     try {
       const res = await fetch(file);
-      if (!res.ok) throw new Error("Include not found");
-
       const html = await res.text();
       el.innerHTML = html;
-
     } catch (err) {
-      console.error(`Error loading ${file}:`, err);
+      console.error("Include error:", file, err);
     }
   }
 }

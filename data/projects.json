@@ -6,15 +6,33 @@
     "client": "Formula 1",
     "role": "Product Designer",
     "year": "2025",
-    "hero": "/assets/images/projects/f1-drive/hero.jpg"
-  },
-  {
-    "slug": "project-two",
-    "title": "Project Two",
-    "summary": "Improving onboarding and reducing drop-off.",
-    "client": "Client Name",
-    "role": "UX Designer",
-    "year": "2024",
-    "hero": "/assets/images/projects/project-two/hero.jpg"
+    "hero": "assets/images/projects/f1-drive/hero.jpg",
+    "thumbnail": "assets/images/projects/f1-drive/thumb.jpg",
+
+    "sections": [
+      {
+        "type": "text",
+        "heading": "Problem",
+        "body": "Designing a seamless digital layer for a physical racing experience."
+      },
+      {
+        "type": "text",
+        "heading": "Approach",
+        "body": "Focused on clarity, real-time feedback, and engagement."
+      },
+      {
+        "type": "image",
+        "src": "assets/images/projects/f1-drive/screen-1.jpg"
+      },
+      {
+        "type": "quote",
+        "text": "A truly first-of-its-kind experience."
+      },
+      {
+        "type": "text",
+        "heading": "Outcome",
+        "body": "Improved engagement and strengthened competitive interaction."
+      }
+    ]
   }
 ]
