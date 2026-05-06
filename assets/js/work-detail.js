@@ -2,7 +2,7 @@ async function loadProject() {
   const params = new URLSearchParams(window.location.search);
   const slug = params.get("slug");
 
-  const res = await fetch("/data/work-details.json");
+  const res = await fetch("/data/projects.json");
   const projects = await res.json();
 
   const project = projects.find(p => p.slug === slug);
