@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "f1-drive",
+    "title": "F1 Drive Experience",
+    "summary": "Designing an immersive digital racing experience.",
+    "client": "Formula 1",
+    "role": "Product Designer",
+    "year": "2025",
+    "hero": "/assets/images/projects/f1-drive/hero.jpg"
+  },
+  {
+    "slug": "project-two",
+    "title": "Project Two",
+    "summary": "Improving onboarding and reducing drop-off.",
+    "client": "Client Name",
+    "role": "UX Designer",
+    "year": "2024",
+    "hero": "/assets/images/projects/project-two/hero.jpg"
+  }
+]
