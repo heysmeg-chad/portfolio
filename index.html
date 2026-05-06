@@ -12,7 +12,7 @@
 
 <body>
 
-  <!-- Header -->
+  <!-- Header Component -->
   <div data-include="components/header.html"></div>
 
   <main>
@@ -25,7 +25,6 @@
         </h1>
         <p class="lead mt-sm">
           Product designer with 26+ years across UX, digital, and front-end development.
-          Focused on clarity, accessibility, and real-world delivery.
         </p>
       </div>
     </section>
@@ -35,22 +34,9 @@
       <div class="container">
         <h2>Selected work</h2>
 
-        <div class="grid mt-md">
-          <a href="projects/project-1.html" class="card">
-            <h3>Project One</h3>
-            <p>Simplified onboarding and improved completion rates.</p>
-          </a>
+        <!-- JSON-rendered projects -->
+        <div class="grid mt-md" id="projects"></div>
 
-          <a href="projects/project-2.html" class="card">
-            <h3>Project Two</h3>
-            <p>Redesigned a key journey to improve usability and accessibility.</p>
-          </a>
-
-          <a href="projects/project-3.html" class="card">
-            <h3>Project Three</h3>
-            <p>End-to-end product thinking from concept to delivery.</p>
-          </a>
-        </div>
       </div>
     </section>
 
@@ -64,7 +50,7 @@
         </p>
         <p class="mt-sm">
           I care about accessibility, clear thinking, and building things that work
-          in the real world, not just in design tools.
+          in the real world.
         </p>
       </div>
     </section>
@@ -90,7 +76,8 @@
     </div>
   </footer>
 
-  <script src="/assets/js/include.js"></script>
+  <!-- Scripts -->
+  <script src="assets/js/include.js"></script>
   <script src="assets/js/projects.js"></script>
 
 </body>

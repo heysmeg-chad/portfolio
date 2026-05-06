@@ -3,9 +3,17 @@ async function loadIncludes() {
 
   for (const el of elements) {
     const file = el.getAttribute("data-include");
-    const res = await fetch(file);
-    const html = await res.text();
-    el.innerHTML = html;
+
+    try {
+      const res = await fetch(file);
+      if (!res.ok) throw new Error("Include not found");
+
+      const html = await res.text();
+      el.innerHTML = html;
+
+    } catch (err) {
+      console.error(`Error loading ${file}:`, err);
+    }
   }
 }
 
