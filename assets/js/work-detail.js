@@ -17,12 +17,12 @@ async function loadProject() {
 
   document.getElementById("title").textContent = project.title;
   document.getElementById("summary").textContent = project.summary;
-  document.getElementById("hero").src = project.hero;
+  document.getElementById("hero").src = project.media.hero;
 
   document.getElementById("meta").innerHTML = `
-    <div><span>Client</span><p>${project.client}</p></div>
-    <div><span>Role</span><p>${project.role}</p></div>
-    <div><span>Year</span><p>${project.year}</p></div>
+    <div><span>Client</span><p>${project.meta.client}</p></div>
+    <div><span>Role</span><p>${project.meta.role}</p></div>
+    <div><span>Year</span><p>${project.meta.year}</p></div>
   `;
 
   const container = document.getElementById("content");
